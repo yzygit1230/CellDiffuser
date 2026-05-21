@@ -17,7 +17,7 @@ This repository is based on PyTorch 2.4.0, CUDA 12.6 and Python 3.10.9. All expe
 ### Dataset Construction
 
 The dataset needs to be divided into two folders for training and test. The training data should be in the format as follows:
-
+```python
 CellDiffuser
 ├── A549 Cell Death State Identification Dataset
 │   ├── train
@@ -76,7 +76,8 @@ CellDiffuser
 │   │   │   │   ├── 1.tif
 │   │   │   │   ├── 2.tif
 │   │   │   │   ├── ...
-
+```
+```python
 CellDiffuser
 ├── Leukocyte Cell Immunotherapy Response Prediction Dataset
 │   ├── Non-Responders
@@ -101,6 +102,7 @@ CellDiffuser
 │   │   │   │   ├── 2.tif
 │   │   │   │   ├── ...
 │   │   ├── ...
+```
 
 Note that the **Leukocyte Cell Immunotherapy Response Prediction Dataset** and **A549 Cell Death State Identification Dataset** can be made available to qualified researchers upon a formal and reasonable request to the corresponding author.
 
