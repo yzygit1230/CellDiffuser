@@ -16,7 +16,7 @@ This repository is based on PyTorch 2.4.0, CUDA 12.6 and Python 3.10.9. All expe
 
 ### Dataset Construction
 
-The dataset needs to be divided into three folders for training and inference. The training data should be in the format of the "data/BreastSlice/1-WHU/train/image" folder.
+The dataset needs to be divided into two folders for training and test. The training data should be in the format as follows:
 
 CellDiffuser
 ├── A549 Cell Death State Identification Dataset
